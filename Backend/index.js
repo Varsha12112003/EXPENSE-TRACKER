@@ -33,6 +33,8 @@ mongoose.connect(process.env.DB_CONNECTION).then(()=>{
 
 app.listen(process.env.PORT,()=>
 {
-    console.log('SERVER IS RUNNING ON PORT ${process.env.PORT}')
+    console.log(`server running on port ${process.env.PORT}`);
+
+    //console.log('SERVER IS RUNNING ON PORT ${process.env.PORT}')
 })
 
